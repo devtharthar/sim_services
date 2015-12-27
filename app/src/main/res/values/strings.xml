@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Sim Services</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fm_home_txt1">မင်္ဂလာပါ Sim Services ဆော့ဝဲလ်ကို အသုံးပြုပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်။ ယခု ဆော့ဝဲလ် လေးဟာ လူကြီးမင်းတို့ ထိုင်းနိုင်ငံအတွင်း အသုံးပြုနေတဲ့ ဆင်းကဒ် များဖြစ်သော Dtac , AIS (12Call ), TrueMove ဆင်းကဒ်နှင့်သက်ဆိုင်သော ဝန်ဆောင်မှုများ အား အလွယ်တကူ လုပ်ဆောင်နိုင်စေရန် ရည်ရွယ်ပါတယ်။</string>
+
+
+    <!-- Dtac Fragment String Collection -->
+    <string name="fld1_txt1">ဖုန်းငွေဖြည့်ရန်</string>
+    <string name="fld1_txt2">အခြားဖုန်းအားငွေလှမ်းထည့်ပေးရန်</string>
+    <string name="fld1_txt3">ဖုန်းငွေချေးရန်</string>
+    <string name="fld1_txt4">မိမိဖုန်းအား ပြန်ခေါ်ခိုင်းရန်</string>
+    <string name="fld1_txt5">အင်တာနက်လက်ကျန်စစ်ရန်</string>
+    <string name="fld1_txt6">အင်တာနက်စမက်ရန်</string>
+
+
+
+
+
+
+</resources>

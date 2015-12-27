@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="အသုံးပြုနည်း" />
+        <item
+            android:id="@+id/Dtac"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Dtac" />
+        <item
+            android:id="@+id/Ais"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ais" />
+        <item
+            android:id="@+id/True"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="True" />
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Me" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+
+
+
+
+
+    <FrameLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/fl1"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="?android:attr/listPreferredItemHeight">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:background="@mipmap/ic_launcher" >
+
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_margin="10dp"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="ဖုန္းေငြျဖည့္ရန္"
+                    android:textColor="#444"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Refill Bill"
+                    android:textColor="#666"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/fl2"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="?android:attr/listPreferredItemHeight">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:background="@mipmap/ic_launcher" >
+
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_margin="10dp"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="အျခားဖုန္းအားေငြလႊဲေပးရန္"
+                    android:textColor="#444"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Refill to Other Phone"
+                    android:textColor="#666"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/fl3"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="?android:attr/listPreferredItemHeight">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:background="@mipmap/ic_launcher" >
+
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_margin="10dp"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="ဖုန္းေငြေခ်းရန္"
+                    android:textColor="#444"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Phone Bill Credit"
+                    android:textColor="#666"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/fl4"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="?android:attr/listPreferredItemHeight">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:background="@mipmap/ic_launcher" >
+
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_margin="10dp"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="အင္တာနက္လက္က်န္စစ္ရန္"
+                    android:textColor="#444"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Checking Internet Stocks"
+                    android:textColor="#666"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/fl5"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="?android:attr/listPreferredItemHeight">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:background="@mipmap/ic_launcher" >
+
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_margin="10dp"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="မိမိဖုန္းအားျပန္ေခၚခိုင္းရန္"
+                    android:textColor="#444"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Call Me Back"
+                    android:textColor="#666"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

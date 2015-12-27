@@ -1,0 +1,393 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.compscitutorials.basigarcia.navigationdrawervideotutorial.MainFragment"
+    android:background="@color/grayColor"
+    >
+
+    <ImageView
+        android:id="@+id/imgdtac"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <ScrollView
+        android:layout_below="@id/imgdtac"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+
+
+        <LinearLayout
+            android:id="@+id/ViewB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <FrameLayout
+                android:layout_below="@id/imgdtac"
+                android:id="@+id/fld1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="?android:attr/listPreferredItemHeight">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/button" >
+
+                    <ImageView
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_margin="10dp"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:layout_gravity="center"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="@string/fld1_txt1"
+                            android:textColor="#444"
+                            android:textSize="15dp"
+                            android:layout_marginBottom="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Refill Bill"
+                            android:textColor="#666"
+                            android:textSize="13dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fld2"
+                android:layout_below="@id/fld1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="?android:attr/listPreferredItemHeight">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/button" >
+
+                    <ImageView
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_margin="10dp"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:layout_gravity="center"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="@string/fld1_txt2"
+                            android:textColor="#444"
+                            android:textSize="15dp"
+                            android:layout_marginBottom="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Refill Bill"
+                            android:textColor="#666"
+                            android:textSize="13dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fld3"
+                android:layout_below="@id/fld2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="?android:attr/listPreferredItemHeight">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/button" >
+
+                    <ImageView
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_margin="10dp"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:layout_gravity="center"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="@string/fld1_txt3"
+                            android:textColor="#444"
+                            android:textSize="15dp"
+                            android:layout_marginBottom="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Refill Bill"
+                            android:textColor="#666"
+                            android:textSize="13dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fld4"
+                android:layout_below="@id/fld3"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="?android:attr/listPreferredItemHeight">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/button" >
+
+                    <ImageView
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_margin="10dp"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:layout_gravity="center"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="@string/fld1_txt4"
+                            android:textColor="#444"
+                            android:textSize="15dp"
+                            android:layout_marginBottom="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Refill Bill"
+                            android:textColor="#666"
+                            android:textSize="13dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fld5"
+                android:layout_below="@id/fld4"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="?android:attr/listPreferredItemHeight">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/button" >
+
+                    <ImageView
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_margin="10dp"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:layout_gravity="center"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="@string/fld1_txt5"
+                            android:textColor="#444"
+                            android:textSize="15dp"
+                            android:layout_marginBottom="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Refill Bill"
+                            android:textColor="#666"
+                            android:textSize="13dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fld6"
+                android:layout_below="@id/fld5"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="?android:attr/listPreferredItemHeight">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/button" >
+
+                    <ImageView
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_margin="10dp"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:layout_gravity="center"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="@string/fld1_txt6"
+                            android:textColor="#444"
+                            android:textSize="15dp"
+                            android:layout_marginBottom="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Refill Bill"
+                            android:textColor="#666"
+                            android:textSize="13dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
